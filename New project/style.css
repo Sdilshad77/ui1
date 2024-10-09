@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 1px solid rgb(194, 0, 0);
+    
+}
+ .main-container{
+    
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+ }
+ 
+  .left-part{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding-block: 40px;
+  }
+  .right-part{
+    width: 50%;
+    height:100vh;
+    background-image:url(./kkkkkkkuu.htm);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+  }
+
+  .right-part h1{
+    font-size: 48px;
+    text-align: center;
+  }
+  .right-part button{
+    width: 35%;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    background:transparent ;
+    color: white;
+    border-radius: 5px;
+
+
+
+  }
+  form{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 30px;
+  }
+  form input{
+    width: 70%;
+    height: 400px;
+    background-color:rgb(10, 79, 119);
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+  }
+  form hr{
+    width: 70%;
+    margin-top: 10px;
+  }
+
+  .left-part img{
+    width: 50%;
+  }
+form p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.label-section{
+    width: 70%;
+    height: auto;
+    color:white;
+
+    display: flex;
+
+    justify-content: start;
+    padding-block: 5px;
+}
+
+#create-bit{
+    background-color: rgb(50,50,50);
+}
+
+form a:hover{
+    text-decoration:underline;
+}
+ form span a:hover{
+    color:rgb(10,81,122);
+ }
+
+
+
+ @media (max-width:768px){
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+
+    }
+    .left-part{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-part{
+        display: none;
+        width: 100%;
+        height: 600px;
+        
+
+    }
+ 
+
+
+
+
+
+
+}
+
+
+  

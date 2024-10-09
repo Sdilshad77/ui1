@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sofadi One" , system-ui;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,144,153,1) 32%, rgba(189,36,93,1) 56%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,144,153,1) 32%, rgba(189,97,36,1) 56%, rgba(0,212,255,1) 100%);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+
+.card img{
+    width: 15%;
+}
+.card h5{
+    font-size: 32px;
+
+}
+.card h6{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.card p{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.card button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: rgb(47, 47, 121);
+    
+    color: aliceblue;
+    margin-block: 20px;
+
+
+}
+.card span i{
+    color: aliceblue;
+    font-size: 20px;
+}
